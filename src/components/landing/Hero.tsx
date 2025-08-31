@@ -1,9 +1,4 @@
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
-import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { ArrowRight, BookOpen, Check } from "lucide-react";
-import Image from "next/image";
 import { SparklesCore } from "../ui/sparkles";
 import { TextHoverEffect } from "../ui/text-hover-effect";
 
@@ -28,7 +23,7 @@ export default function Hero() {
           background="transparent"
           minSize={0.4}
           maxSize={1}
-          particleDensity={1900}
+          particleDensity={2500}
           className="w-full h-full"
           particleColor="#ffffff"
         />
